@@ -6,22 +6,129 @@
     android:layout_height="match_parent"
     tools:context=".main.ui.MainActivity">
 
-    <include
-        android:id="@+id/include"
-        layout="@layout/toolbar" />
-
     <ScrollView
         android:layout_width="409dp"
         android:layout_height="695dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/include">
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"/>
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.Group
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:constraint_referenced_ids="termTitle,viewTerm,addTerm,updateTerm,deleteTem" />
+
+            <EditText
+                android:id="@+id/termTitle"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Term" />
+
+            <Button
+                android:id="@+id/viewTerm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VIEW" />
+
+            <Button
+                android:id="@+id/addTerm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ADD" />
+
+            <Button
+                android:id="@+id/updateTerm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UPDATE" />
+
+            <Button
+                android:id="@+id/deleteTem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DELETE" />
+
+            <androidx.constraintlayout.widget.Group
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:constraint_referenced_ids="courseTitle,viewCourse,addCourse,updateCourse,deleteCourse" />
+
+            <EditText
+                android:id="@+id/courseTitle"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Course" />
+
+            <Button
+                android:id="@+id/viewCourse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VIEW" />
+
+            <Button
+                android:id="@+id/addCourse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ADD" />
+
+            <Button
+                android:id="@+id/updateCourse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UPDATE" />
+
+            <Button
+                android:id="@+id/deleteCourse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DELETE" />
+
+            <EditText
+                android:id="@+id/assessmentTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:text="Assessment" />
+
+            <Button
+                android:id="@+id/viewAssess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VIEW" />
+
+            <Button
+                android:id="@+id/addAssess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ADD" />
+
+            <Button
+                android:id="@+id/updateAssess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UPDATE" />
+
+            <Button
+                android:id="@+id/deleteAssess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DELETE" />
+
+        </LinearLayout>
 
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

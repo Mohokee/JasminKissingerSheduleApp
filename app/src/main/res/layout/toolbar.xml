@@ -25,5 +25,4 @@
             android:layout_alignParentEnd="true"
             android:src="@drawable/ic_baseline_menu_24"/>
     </RelativeLayout>
-
 </RelativeLayout>
