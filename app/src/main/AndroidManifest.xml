@@ -5,10 +5,25 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="School Schedule App"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.JasminKissingerSheduleApp">
+        <activity
+            android:label="Assessment List"
+            android:name=".main.ui.assessmentList"
+            android:exported="false"
+            android:parentActivityName=".main.ui.MainActivity"/>
+        <activity
+            android:label="Class List"
+            android:name=".main.ui.classList"
+            android:exported="false"
+            android:parentActivityName=".main.ui.MainActivity"/>
+        <activity
+            android:label="Term List"
+            android:name=".main.ui.termList"
+            android:exported="false"
+            android:parentActivityName=".main.ui.MainActivity"/>
         <activity
             android:name=".main.ui.MainActivity"
             android:exported="true">

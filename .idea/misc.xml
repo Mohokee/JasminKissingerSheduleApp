@@ -8,10 +8,17 @@
         <entry key="..\:/Users/Jasmin/AndroidStudioProjects/JasminKissingerSheduleApp/app/src/main/res/drawable/ic_baseline_schedule_24.xml" value="0.1" />
         <entry key="..\:/Users/Jasmin/AndroidStudioProjects/JasminKissingerSheduleApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.23697916666666666" />
         <entry key="..\:/Users/Jasmin/AndroidStudioProjects/JasminKissingerSheduleApp/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.23697916666666666" />
+        <entry key="..\:/Users/Jasmin/AndroidStudioProjects/JasminKissingerSheduleApp/app/src/main/res/layout/activity_class_list.xml" value="0.225" />
         <entry key="..\:/Users/Jasmin/AndroidStudioProjects/JasminKissingerSheduleApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Jasmin/AndroidStudioProjects/JasminKissingerSheduleApp/app/src/main/res/layout/activity_term_list.xml" value="0.225" />
+        <entry key="..\:/Users/Jasmin/AndroidStudioProjects/JasminKissingerSheduleApp/app/src/main/res/layout/activity_view_list.xml" value="0.2171875" />
         <entry key="..\:/Users/Jasmin/AndroidStudioProjects/JasminKissingerSheduleApp/app/src/main/res/layout/recycler_view_item.xml" value="0.19907407407407407" />
         <entry key="..\:/Users/Jasmin/AndroidStudioProjects/JasminKissingerSheduleApp/app/src/main/res/layout/toolbar.xml" value="0.25" />
+        <entry key="..\:/Users/Jasmin/AndroidStudioProjects/JasminKissingerSheduleApp/app/src/main/res/menu/assessment_menu.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/Jasmin/AndroidStudioProjects/JasminKissingerSheduleApp/app/src/main/res/menu/class_menu.xml" value="0.22083333333333333" />
         <entry key="..\:/Users/Jasmin/AndroidStudioProjects/JasminKissingerSheduleApp/app/src/main/res/menu/menu.xml" value="0.2171875" />
+        <entry key="..\:/Users/Jasmin/AndroidStudioProjects/JasminKissingerSheduleApp/app/src/main/res/menu/termMenu.xml" value="0.1" />
+        <entry key="..\:/Users/Jasmin/AndroidStudioProjects/JasminKissingerSheduleApp/app/src/main/res/menu/term_menu.xml" value="0.1" />
         <entry key="..\:/Users/Jasmin/AndroidStudioProjects/JasminKissingerSheduleApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.12395833333333334" />
       </map>
     </option>
