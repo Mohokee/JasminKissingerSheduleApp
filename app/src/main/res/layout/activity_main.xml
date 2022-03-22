@@ -31,7 +31,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Term"
+                android:text="My Scheduler"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:visibility="visible"
                 tools:visibility="visible" />
@@ -40,40 +40,8 @@
                 android:id="@+id/viewTermButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="viewTerm"
-                android:text="VIEW" />
-
-            <TextView
-                android:id="@+id/courseTitle"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Course"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
-
-            <Button
-                android:id="@+id/viewCourse"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="viewClass"
-                android:text="VIEW" />
-
-            <TextView
-                android:id="@+id/assessmentTitle"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Assessment"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
-
-            <Button
-                android:id="@+id/viewAssess"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="viewAssessment"
-                android:text="VIEW" />
+                android:onClick="viewMenu"
+                android:text="ENTER" />
 
         </LinearLayout>
 

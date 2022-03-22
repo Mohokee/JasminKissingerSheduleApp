@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="Add Class"
+    <item android:title="Home"
+        android:orderInCategory="100"
+        android:id="@+id/main"/>
+
+    <item android:title="Course List"
+        android:orderInCategory="100"
+        android:id="@+id/list"/>
+
+    <item android:title="Add Course"
         android:orderInCategory="100"
         android:id="@+id/add"/>
 
-    <item android:title="Update Class"
-        android:orderInCategory="100"
-        android:id="@+id/update"/>
-
-    <item android:title="Delete Class"
-        android:orderInCategory="100"
-        android:id="@+id/delete"/>
 </menu>

@@ -10,20 +10,67 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JasminKissingerSheduleApp">
         <activity
-            android:label="Assessment List"
+            android:name=".main.ui.search"
+            android:exported="false"
+            />
+        <activity
+            android:name=".main.ui.report"
+            android:exported="false" />
+        <activity
+            android:name=".main.ui.mainMenu"
+            android:exported="false"
+            android:label="Main Menu" />
+
+        <receiver
+            android:name=".main.ui.MyReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".main.ui.assessmentAdd"
+            android:exported="false"
+            android:label="Add Assessment"
+            android:parentActivityName=".main.ui.assessmentAdd" />
+        <activity
+            android:name=".main.ui.assessmentDetailed"
+            android:exported="false"
+            android:label="Assessment Details"
+            android:parentActivityName=".main.ui.assessmentList" />
+        <activity
+            android:name=".main.ui.classAdd"
+            android:exported="false"
+            android:label="Add Course"
+            android:parentActivityName=".main.ui.classAdd" />
+        <activity
+            android:name=".main.ui.classDetailed"
+            android:exported="false"
+            android:label="Course Details"
+            android:parentActivityName=".main.ui.classList" />
+        <activity
+            android:name=".main.ui.termAdd"
+            android:exported="false"
+            android:label="Add Term"
+            android:parentActivityName=".main.ui.termList" />
+        <activity
+            android:name=".main.ui.termDetailed"
+            android:exported="false"
+            android:label="Term Detailed View"
+            android:parentActivityName=".main.ui.termList" />
+        <activity
             android:name=".main.ui.assessmentList"
             android:exported="false"
-            android:parentActivityName=".main.ui.MainActivity"/>
+            android:label="Assessment List"
+            android:parentActivityName=".main.ui.mainMenu" />
         <activity
-            android:label="Class List"
             android:name=".main.ui.classList"
             android:exported="false"
-            android:parentActivityName=".main.ui.MainActivity"/>
+            android:label="Course List"
+            android:parentActivityName=".main.ui.mainMenu" />
         <activity
-            android:label="Term List"
             android:name=".main.ui.termList"
             android:exported="false"
-            android:parentActivityName=".main.ui.MainActivity"/>
+            android:label="Term List"
+            android:parentActivityName=".main.ui.mainMenu" />
         <activity
             android:name=".main.ui.MainActivity"
             android:exported="true">
